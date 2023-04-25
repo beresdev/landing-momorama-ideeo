@@ -21,8 +21,6 @@
 }
 
 .hero {
-    /* width: 100vw;
-    height: 690px; */
     position: relative;
 }
 
@@ -30,11 +28,6 @@
     position: relative;
     height: 100%;
 }
-
-/* .hero-container {
-    width: 100vw;
-    height: auto;
-} */
 
 .hero-container p {
     bottom: 350px;
@@ -64,4 +57,54 @@
     top: 148px;
     width: 320px;
     right: 9px;
+}
+
+.awards-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--medium-font);
+}
+
+.awards-section p {
+    color: var(--dark-grey-color);
+    font-size: 16px;
+}
+
+.awards-section .date p:nth-child(2) {
+    color: var(--orange-color);
+}
+
+.awards-section .date, .positions {
+    padding-bottom: 16px;
+}
+
+.awards-section .positions p {
+    font-family: var(--black-font);
+}
+
+.awards-section .positions p:nth-child(2) {
+    color: var(--orange-color);
+}
+
+.awards-section .award img {
+    width: 60px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.awards-section .more-info {
+    padding: 36px 0 50px;
+    color: var(--medium-grey-color);
+}
+
+.awards-section a {
+    color: var(--red-color);
+    font-family: var(--black-font);
+    text-decoration: none;
 }
