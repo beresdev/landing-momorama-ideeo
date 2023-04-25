@@ -36,6 +36,10 @@
     left: calc((100% - 220px)/2);
 }
 
+.hero-container .signle-p-hero {
+    display: none;
+}
+
 .hero-container p {
     text-align: center;
     font-family: var(--black-font);
@@ -80,8 +84,13 @@
     font-size: 16px;
 }
 
-.awards-section .date p:nth-child(2) {
+.awards-section .date {
+    width: 310px;
+}
+
+.awards-section .date p span {
     color: var(--orange-color);
+    font-weight: bold;
 }
 
 .awards-section .date, .positions {
@@ -419,4 +428,100 @@
     letter-spacing: 2px;
   }
 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
 
+    .hero {
+        height: 200px;
+        width: 100vw;
+    }
+
+    .hero .hero-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .hero-container .text-container  {
+        width: 60%;
+        height: 100px;
+        position: relative;
+        top: 55px;
+        left: 70px;
+        text-align: center;
+    }
+
+    .hero-container .text-container p{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .hero-container .text-container p:nth-child(2) {
+        display: none;
+    }
+    .hero-container .text-container p:nth-child(3) {
+        display: none;
+    }
+    .hero-container .signle-p-hero {
+        display: inline;
+    }
+
+    .hero-container .arrow {
+        width: 200px;
+        transform: rotate(270deg);
+        position: relative;
+        left: 25px;
+        overflow: hidden;
+    }
+
+    .hero-container > .airplane  {
+        width: 250px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .awards-section {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .awards-section .date {
+        width: 470px;
+    }
+
+    .awards-section .date p span{
+        color: var(--orange-color);
+        font-weight: bold;
+    }
+
+    .awards-section .positions {
+        display: flex;
+    }
+
+    .awards-section .positions p:nth-child(2) {
+        padding-left: 4px;
+    }
+
+    .awards-section .awards-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .awards-section .more-info br{
+        display: none;
+    }
+
+    .memorama-section .rules-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .memorama-section .rules-cards .line {
+        width: 110px;
+        border-top: 3px solid var(--green-color);
+        border-left: none;
+    }
+  }
