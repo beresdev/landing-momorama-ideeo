@@ -1,0 +1,22 @@
+:root {
+    --red-color: #EB0029;
+    --ligth-grey-color: #E0E0E0;
+    --green-color: #119F52;
+    --pink-color: #B01657;
+    --orange-color: #FF671B;
+    --medium-grey-color: #9D9D9C;
+    --dark-grey-color: #524F5E;
+    --black-font: font-family: 'Gotham Black', sans-serif;
+    --book-font: font-family: 'Gotham Book', sans-serif;
+    --bold-font: font-family: 'Gotham Ultra', sans-serif;
+    --light-font: font-family: 'Gotham Light', sans-serif;
+    --medium-font: font-family: 'Gotham', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

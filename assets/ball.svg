@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.58 84.58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b01657;
+      }
+    </style>
+  </defs>
+  <g id="arte">
+    <g>
+      <path class="cls-1" d="m10.66,84.58h-.09C4.74,84.58,0,79.83,0,74c-.02-22.49,6.83-41.24,19.8-54.21C32.75,6.84,51.46,0,73.91,0h.09c5.83,0,10.57,4.74,10.57,10.57.02,22.49-6.83,41.24-19.8,54.21-12.95,12.95-31.66,19.8-54.12,19.8ZM73.91,3.52c-21.5,0-39.35,6.49-51.62,18.76C10,34.58,3.51,52.46,3.52,74c0,3.92,3.26,7.06,7.13,7.05,21.5,0,39.35-6.49,51.63-18.76,12.3-12.29,18.78-30.18,18.77-51.71,0-3.89-3.16-7.05-7.05-7.05h-.09Z"/>
+      <path class="cls-1" d="m69.99,45.57l-3.14-1.6c.85-1.66,1.63-3.44,2.39-5.43l3.29,1.26c-.81,2.11-1.64,4-2.54,5.77Z"/>
+      <path class="cls-1" d="m39.8,72.53l-1.25-3.29c7.33-2.79,13.65-6.82,18.78-11.97,3.01-3.01,5.63-6.43,7.79-10.16l3.05,1.77c-2.32,4-5.12,7.66-8.35,10.88-5.48,5.5-12.22,9.8-20.02,12.77Z"/>
+      <rect class="cls-1" x="66.96" y="-1.83" width="3.52" height="35.38" transform="translate(8.91 53.24) rotate(-45)"/>
+      <rect class="cls-1" x="61.67" y="-1.11" width="3.52" height="44.5" transform="translate(3.63 51.05) rotate(-45)"/>
+      <rect class="cls-1" x="14.1" y="51.03" width="3.52" height="35.38" transform="translate(-43.95 31.34) rotate(-45)"/>
+      <rect class="cls-1" x="19.38" y="41.18" width="3.52" height="44.5" transform="translate(-38.66 33.53) rotate(-45)"/>
+      <rect class="cls-1" x="19.86" y="40.53" width="44.85" height="3.52" transform="translate(-17.52 42.29) rotate(-45)"/>
+      <rect class="cls-1" x="40.53" y="34.81" width="3.52" height="14.95" transform="translate(-17.52 42.29) rotate(-45)"/>
+      <rect class="cls-1" x="35.24" y="40.1" width="3.52" height="14.95" transform="translate(-22.8 40.1) rotate(-45)"/>
+      <rect class="cls-1" x="29.95" y="45.38" width="3.52" height="14.95" transform="translate(-28.09 37.91) rotate(-45)"/>
+      <rect class="cls-1" x="45.81" y="29.53" width="3.52" height="14.95" transform="translate(-12.23 44.48) rotate(-45)"/>
+      <rect class="cls-1" x="51.1" y="24.24" width="3.52" height="14.95" transform="translate(-6.94 46.67) rotate(-45)"/>
+    </g>
+  </g>
+</svg>
