@@ -6,11 +6,11 @@
     --orange-color: #FF671B;
     --medium-grey-color: #9D9D9C;
     --dark-grey-color: #524F5E;
-    --black-font: font-family: 'Gotham Black', sans-serif;
-    --book-font: font-family: 'Gotham Book', sans-serif;
-    --bold-font: font-family: 'Gotham Ultra', sans-serif;
-    --light-font: font-family: 'Gotham Light', sans-serif;
-    --medium-font: font-family: 'Gotham', sans-serif;
+    --black-font:'Gotham Black', sans-serif;
+    --book-font: 'Gotham Book', sans-serif;
+    --bold-font: 'Gotham Ultra', sans-serif;
+    --light-font: 'Gotham Light', sans-serif;
+    --medium-font: 'Gotham', sans-serif;
 
 }
 
@@ -20,3 +20,48 @@
     box-sizing: border-box;
 }
 
+.hero {
+    /* width: 100vw;
+    height: 690px; */
+    position: relative;
+}
+
+.background-img {
+    position: relative;
+    height: 100%;
+}
+
+/* .hero-container {
+    width: 100vw;
+    height: auto;
+} */
+
+.hero-container p {
+    bottom: 350px;
+    position: relative;
+    text-align: center;
+    font-family: var(--black-font);
+    font-size: 20px;
+    color: var(--green-color);
+}
+
+.hero-container p:nth-child(2) {
+    color: var(--red-color);
+}
+
+.hero-container p:nth-child(4) {
+    font-size: 26px;
+}
+
+.hero-container .arrow {
+    position: absolute;
+    width: 100vw;
+    bottom: 78px;
+}
+
+.hero-container .airplane {
+    position: absolute;
+    top: 148px;
+    width: 320px;
+    right: 9px;
+}
