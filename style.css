@@ -22,23 +22,28 @@
 
 .hero {
     position: relative;
+    height: auto;
+    background-image: url('./assets/hero-background-movil.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
 }
 
-.background-img {
-    position: relative;
-    height: 100%;
+.hero-container .text-container {
+    width: 220px;
+    position: absolute;
+    top: 5%;
+    left: calc((100% - 220px)/2);
 }
 
 .hero-container p {
-    bottom: 350px;
-    position: relative;
     text-align: center;
     font-family: var(--black-font);
-    font-size: 20px;
+    font-size: 25px;
     color: var(--green-color);
 }
 
-.hero-container p:nth-child(2) {
+.hero-container p:nth-child(1) {
     color: var(--red-color);
 }
 
@@ -49,21 +54,20 @@
 .hero-container .arrow {
     position: absolute;
     width: 100vw;
-    bottom: 78px;
+    bottom: 0;
 }
 
 .hero-container .airplane {
     position: absolute;
-    top: 148px;
+    bottom: 20%;
     width: 320px;
-    right: 9px;
+    right: calc((100% - 320px)/2.5);
 }
 
 .awards-section {
     width: 100%;
     height: auto;
-    position: relative;
-    top: -30px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -414,3 +418,5 @@
     font-size: 22px;
     letter-spacing: 2px;
   }
+
+
