@@ -108,3 +108,238 @@
     font-family: var(--black-font);
     text-decoration: none;
 }
+
+.memorama-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./assets/Asset\ 9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.memorama-section p {
+    font-family: var(--light-font);
+    color: white;
+}
+
+.memorama-section p:nth-child(1) {
+    letter-spacing: 4px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.memorama-section p:nth-child(2) {
+    padding-top: 10px;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-family: var(--black-font);
+    color: var(--green-color);
+}
+
+.memorama-section .x-container {
+    width: 185px;
+    border-top: 2px solid white;
+    margin-top: 25px;
+}
+
+.memorama-section .x-container div {
+    position: relative;
+    top: -12px;
+    color: white;
+    width: 50px;
+    left: calc((100% - 50px)/2);
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--medium-font);
+    background-color: #2d2d2d;
+}
+
+.memorama-section .rules-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.memorama-section .rules-cards article .card p {
+    color: white;
+    letter-spacing: normal;
+    padding-top: 0;
+}
+
+.memorama-section .rules-cards article {
+    position: relative;
+}
+
+.rules-cards article img {
+    width: 75px;
+    height: 105px;
+    position: absolute;
+    left: -32px;
+    top: 20px;
+}
+
+.memorama-section .rules-cards .card {
+    width: 230px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 55px;
+    border: 3px solid var(--green-color);
+    border-radius: 20px;
+}
+
+.memorama-section .rules-cards .card p {
+    font-size: 20px;
+}
+
+.memorama-section .rules-cards .line {
+    height: 20px;
+    border-left: 3px solid var(--green-color);
+}
+
+.ranking-section {
+    height: 500px;
+    background-image: url('./assets/ranking-back.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ranking-section .black-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color:#191919;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+}
+
+.black-circle img {
+    width: 110px;
+    position: relative;
+    top: 10px;
+    left: -2px;
+}
+
+.ranking-section .ranking-table-container {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:#191919;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.ranking-table-container .title {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 33px;
+    margin: 0 auto;
+    background-color: #191919;
+    border: 1px solid var(--ligth-grey-color);
+}
+
+.table-container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.table-container .item {
+    font-family: var(--light-font);
+    font-size: 10px;
+    color: var(--ligth-grey-color);
+  }
+
+  .table-container .item img {
+    width: 20px;
+    height: 16px; 
+  }
+
+.table-head {
+    display: grid;
+    grid-template-columns: 40px 80px 90px 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    border-bottom: 3px solid var(--ligth-grey-color);
+    gap: 5px;
+}
+
+.table-head .item {
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+.table-head .name {
+    padding-left: 8px;
+}
+
+.table-head .h {
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+
+.table-head .h p {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.table-content {
+    display: grid;
+    grid-template-columns: 30px 120px 80px 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .table-content .item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--ligth-grey-color);
+  }
+
+  .table-content .posit, .d {
+    display: flex;
+  }
+
+  .table-content .name {
+    padding-left: 24px;
+  }
+
+  .table-content .movement p {
+    position: relative;
+    left: 20px;
+  }
+
+  .table-content .time {
+    padding-left: 10px;
+  }
+
+  .table-content .time p {
+    position: relative;
+    left: 10px;
+  }
+
+  .table-content .last {
+    background-color: var(--ligth-grey-color);
+    color: var(--dark-grey-color);
+    height: 20px;
+    padding-top: 2px;
+  }
+
+  .table-content .last p {
+    padding-top: 2px;
+  }
+
+  .table-content .item:nth-child(22) {
+    padding-top: 4px;
+  }
