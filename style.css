@@ -205,7 +205,7 @@
 }
 
 .ranking-section {
-    height: 700px;
+    height: 650px;
     background-image: url('./assets/ranking-back.png');
     background-position: center;
     background-size: cover;
@@ -241,12 +241,53 @@
 
 .ranking-table-container .title {
     width: 200px;
-    height: 100px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     top: 33px;
     margin: 0 auto;
     background-color: #191919;
-    border: 1px solid var(--ligth-grey-color);
+}
+
+.ranking-table-container .title p{
+    font-family: var(--medium-font);
+    color: var(--ligth-grey-color);
+    text-align: center;
+    font-size: 14px;
+}
+
+.ranking-table-container .title p:nth-child(2){
+    color: var(--green-color);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.ranking-table-container .small-x-container {
+    width: 50px;
+    height: 10px;
+    border-top: 1px solid white;
+    margin-top: 10px;
+}
+
+.ranking-table-container .small-x-container div {
+    position: relative;
+    top: -12px;
+    color: var(--ligth-grey-color);
+    width: 20px;
+    left: calc((100% - 20px)/2);
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    font-family: var(--medium-font);
+    background-color: #191919;
+}
+
+.ranking-table-container .title p:nth-child(4){
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 8px;
 }
 
 .table-container {
